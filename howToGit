@@ -1,3 +1,12 @@
+git eine Software zur Versionsverwaltung (version control)
+Die ArbeitsWeise von git kann man sich so vorstellen:
+
+----------------------             |-------------- Staging --------------|
+Dateien auf deinem PC |
+(lokales Repository)  | -- add --> geaenderte -- commit --> Deteien bereit -- push --> Dateien werden
+______________________|             Dateien                 zum Hochladen              hochgeladen
+
+
 Repository clonen:
 1. Auf dem PC ein Ordner erstellen ($ mkdir )
 2. Mit Terminal in den Ordner reingehen ($ cd )
@@ -6,9 +15,10 @@ Repository clonen:
 
 Make changes:
 1. Den Code editieren
-2. git commit -am "Ein Kommentar, der die Ändererungen beschreibt"
-3. git push
-4. Great success !!! Der neue Code ist jetzt für alle in der Repository abgelegt
+2. git add file_name
+3. git commit -am "Ein Kommentar, der die Ändererungen beschreibt"
+4. git push
+5. Great success !!! Der neue Code ist jetzt für alle in der Repository abgelegt
 
 File hochladen:
 1. git add file_name
@@ -20,5 +30,5 @@ Die neueste Version der Codes runterladen:
 1. Im Ordner, wo die Repository ablegt ist: $ git pull
 2. Great success !!! Sie sind ein stolzer Besitzer der neuesten Version des Codes
 
-Dateien, die geaendert wurden oder schon zum hochladen bereitstehen, anschauen (a.k.a staging):
+Dateien, die geaendert wurden und die schon zum hochladen bereitstehen, anschauen (a.k.a staging):
 $ git status
