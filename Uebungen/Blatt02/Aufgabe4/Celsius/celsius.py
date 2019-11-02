@@ -4,11 +4,11 @@
 
 import sys
 
-tC = [t for t in range(1,101)]
-tF = [(tc*9.0)/5.0+32.0 for tc in tC ] 
+t_c = [t for t in range(1,101)]
+t_f = [(t_c*9.0)/5.0+32.0 for t_c in t_c ] 
 
 print("# {}\t{}".format("celsius","fahrenheit"))
 
-for i in range(len(tC)):
-    print("{:.2f}\t{:.2f}".format(tC[i],tF[i]))
+for i in range(len(t_c)):
+    print("{:.2f}\t{:.2f}".format(t_c[i],t_f[i]))
 
