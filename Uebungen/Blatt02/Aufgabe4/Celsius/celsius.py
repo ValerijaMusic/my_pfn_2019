@@ -5,7 +5,7 @@
 import sys
 
 t_c = [t for t in range(1,101)]
-t_f = [(t_c*9.0)/5.0+32.0 for t_c in t_c ] 
+t_f = [(t*9.0)/5.0+32.0 for t in t_c] 
 
 print("# {}\t{}".format("celsius","fahrenheit"))
 
