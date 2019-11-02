@@ -19,3 +19,6 @@ File hochladen:
 Die neueste Version der Codes runterladen:
 1. Im Ordner, wo die Repository ablegt ist: $ git pull
 2. Great success !!! Sie sind ein stolzer Besitzer der neuesten Version des Codes
+
+Dateien, die geaendert wurden oder schon zum hochladen bereitstehen, anschauen (a.k.a staging):
+$ git status
