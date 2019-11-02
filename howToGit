@@ -1,10 +1,11 @@
 git eine Software zur Versionsverwaltung (version control)
 Die ArbeitsWeise von git kann man sich so vorstellen:
 
-----------------------             |-------------- Staging --------------|
-Dateien auf deinem PC |
-(lokales Repository)  | -- add --> geaenderte -- commit --> Deteien bereit -- push --> Dateien werden
-______________________|             Dateien                 zum Hochladen              hochgeladen
+-------------------------            |-------------- Staging --------------|             ----------------------------
+| Dateien auf deinem PC |                                                                |     Dateien werden       | 
+| (lokales Repository)  | -- add --> geaenderte -- commit --> Deteien bereit -- push --> |      hochgeladen         |
+|                       |             Dateien                 zum Hochladen              | (gemeinsames Repository) |
+                                                                                         
 
 
 Repository clonen:
